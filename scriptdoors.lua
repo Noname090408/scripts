@@ -1,0 +1,10 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+ 
+ 
+Notification:Notify(
+    {Title = "New Loadingstring!", Description = "Hey there! Old loadstring has changed! Check discord for the new one!"},
+    {OutlineColor = Color3.fromRGB(79, 126, 255),Time = 8, Type = "default"},
+    {Image = "http://www.roblox.com/asset/?id=10657711310", ImageColor = Color3.fromRGB(0, 0, 255), Callback = function(State) end}
+)
+wait(1)
